@@ -1,38 +1,161 @@
-.App {
+#root{
+  background-color: #FD8A8A;
+}
+.color-dark{
+  background-color: #FD8A8A;
+}
+.color-lght{
+  background-color: #fee1e1;
+}
+.color{
+  height: fit-content;
+  position: sticky;
+  top:0;
+}
+.navbar-brand{
+  margin-left: 10px;
+  font-family:cursive;
+  font-weight: 800;
+  font-size: larger;
+  color: #FD8A8A;
+}.navbar-nav{
+  padding: 10px;
+  margin-left: 20%;
+}
+.nav-link{
+  padding: 10px;
+  margin: 5px;
+  color: #FD8A8A;
+}
+.btn-2{
+  background-color: #fce9e9;
+}
+.btn {
+  background-color: #fee1e1;
+  color: #FD8A8A;
+}
+.btn:hover{
+  background-color: #FFC6AC;
+}
+
+/* Title Section */
+#title-section{
+  width: 100%;
+  height: 450px;
+  text-align: center;
+  padding: 50px;
+}
+.grid-cointainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.h1-title{
+  font-size: 3.5rem;
+}
+.headng{
+  width: 40%;
+  padding: 10px;
+  margin: 90px 20px 60px 180px;
+}
+.img{
+  width:max-content;
+  height:max-content;
+}
+.quiz{
+  margin: 20px;
+  background-color:#FD8A8A;
+  border-radius: 5px;
+  height: 50px;
+  width: 150px;
+  border: none;
+}
+
+/* round cards */
+.inline-element{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.round-section{
+  padding: 20px;
+}
+.round{
+  height: 170px;
+  width: 170px;
+  border-radius: 100%;
+  margin : auto 50px;
+}
+.h3-round{
+  text-align: center;
+  padding-top: 70px;
+}
+
+/* Content Section */
+.content-sec{
+  padding: 50px;
+}
+.content{
+  padding: 20px 20px;
+}
+
+/* Download Section */
+.download{
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.download-fav{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: auto 5px;
+  margin-top: 20px;
+}
+.grd-1{
+  margin-left:40px;
+}
+.grd-2{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button-download{
+  background-color:#fee1e1;
+  height: 50px;
+  width: 220px;
+}
+.button-store{
+  color: rgb(19, 18, 18);
+}
+/* WHO ARE WE ?*/
+.whoarewe{
+  color:black;
+  padding: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Footer section */
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.footer-content1{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  color: black;
+  padding: 2px 50px;
+  margin: 0 10px;
+}
+
+/* FOLLOW SECTION */
+.follow{
+  display: grid ;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+
+}
+  .black{
+    color: black;
+    display: inline;
+    width: fit-content;
+    padding: 5px;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  /* COPYRIGHT */
+  .copyright{
+    padding: 20px;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
